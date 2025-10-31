@@ -1,10 +1,9 @@
-# Projeto: Lista de Tarefas (Spring Boot + Vue)
+# Projeto: Lista de Tarefas (Spring Boot + Vue) 
 
-Um repositório simples para desenvolver localmente uma API em Spring Boot (backend) e uma interface em Vue (frontend). Este README é curto, direto e mostra como rodar e testar rapidamente.
+Localmente uma API em Spring Boot (backend) e uma interface em Vue (frontend). Este README é curto, direto e mostra como rodar e testar rapidamente.
 
 ---
 
-O que há aqui
 - backend/: API em Spring Boot (Java + Maven)
 - frontend/: App cliente em Vue (Vite + axios)
 
@@ -86,16 +85,3 @@ Onde olhar no código
 - Backend: `backend/src/main/java/br/com/tarefas/api` (controller, service, repository, config)
 - Frontend: `frontend/src` e `frontend/src/services/tarefaService.js` (baseURL)
 
-Se quiser enviar um relatório curto (pronto)
-"Teste concluído: frontend (http://localhost:5173) consegue comunicar com backend (http://localhost:8088/api). Preflight OPTIONS 200 e GET /api/tarefas retorna JSON. Build e execução feitos com Maven 3.9.11 e Java 24."
-
-Problemas comuns e soluções rápidas
-- `mvn` não encontrado: instale o Maven e adicione ao PATH, ou use o wrapper `mvnw` se estiver presente.
-- Preflight 403: verifique se a aplicação rodando é a versão empacotada mais recente (rebuild + restart). Rode os `curl` acima para depurar.
-
-Contato rápido
-- Se quiser que eu harmonize a configuração de CORS ou gere um plano para atualizar Spring Boot para 3.5.x, diga "Harmonize" ou "Upgrade".
-
----
-
-Pronto — simples, direto e humano. Boa sorte com o envio!
